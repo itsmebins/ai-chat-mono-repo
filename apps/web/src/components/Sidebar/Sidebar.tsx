@@ -32,7 +32,7 @@ const Sidebar: FC<SidebarProps> = ({ sidebarOpen, setSidebarOpen }) => {
     >
       <List sx={{ width: 250, pt: (theme) => `${theme.mixins.toolbar.minHeight}px` }}>
         <ListItem sx={{ p: 0 }} key={'/'}>
-          <ListItemButton component={Link} to={'#g'} onClick={close}>
+          <ListItemButton component={Link} to={'#'} onClick={close}>
             <ListItemIcon>{<DefaultIcon />}</ListItemIcon>
             <ListItemText>Chat history</ListItemText>
           </ListItemButton>
