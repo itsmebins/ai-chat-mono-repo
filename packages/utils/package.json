@@ -1,0 +1,17 @@
+{
+  "name": "@baserepo/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {},
+  "dependencies": {
+    "html-entities": "^2.5.2"
+  },
+  "devDependencies": {
+    "@baserepo/tsconfig": "workspace:*",
+    "typescript": "5.4.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

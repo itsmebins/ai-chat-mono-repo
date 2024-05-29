@@ -1,0 +1,32 @@
+{
+  "extends": "@baserepo/tsconfig/base.json",
+  "compilerOptions": {
+    "outDir": "./build",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",  // Keeps JSX, but does not transform it
+    "allowJs": true,    // Allows importing JS files if necessary
+    // other necessary options
+    "target": "ES2019",
+    "baseUrl": ".",
+    "noEmit": false,
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@/*": ["./*"],
+      "@baserepo/utils": ["utils"],
+      "src/*": ["src/*"],
+      "routes/*": ["src/routes/*"],
+      "middlewares/*": ["src/middlewares/*"],
+      "utils/*": ["src/utils/*"]
+    }
+  },
+  "include": ["src", "index.ts", "custom-types.d.ts", "package.json"],
+  "exclude": ["node_modules", "build", "test", "**/*.spec.ts"],
+  "ts-node": {
+    "swc": true
+  }
+}

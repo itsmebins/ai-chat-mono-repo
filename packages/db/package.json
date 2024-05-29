@@ -1,0 +1,16 @@
+{
+  "name": "@baserepo/db",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {},
+  "dependencies": {
+    "@prisma/client": "^5.14.0"
+  },
+  "devDependencies": {
+    "encoding": "0.1.13",
+    "typescript": "5.4.5",
+    "utf-8-validate": "6.0.3"
+  },
+  "author": ""
+}
