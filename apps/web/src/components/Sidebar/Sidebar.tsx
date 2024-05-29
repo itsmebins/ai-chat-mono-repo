@@ -34,7 +34,7 @@ const Sidebar: FC<SidebarProps> = ({ sidebarOpen, setSidebarOpen }) => {
         <ListItem sx={{ p: 0 }} key={'/'}>
           <ListItemButton component={Link} to={'#g'} onClick={close}>
             <ListItemIcon>{<DefaultIcon />}</ListItemIcon>
-            <ListItemText>{'Test'}</ListItemText>
+            <ListItemText>Chat history</ListItemText>
           </ListItemButton>
         </ListItem>
       </List>
